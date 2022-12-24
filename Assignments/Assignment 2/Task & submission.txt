@@ -1,0 +1,6 @@
+Requirements:
+1- Please create the exact same HTML structure as the below image
+2- Please deploy into Firebase, and create an online link
+3- Submit the assignment at the link below
+https://forms.gle/Dgk3pPXyVZ7bjL2w9
+Deadline: 10/12/2022!
