@@ -1,0 +1,19 @@
+* {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #page-title {
+    font-size: 36px;
+    color: blue;
+  }
+  
+  .menu-item {
+    font-size: 24px;
+    color: green;
+  }
+  
+  body {
+    background-color: pink;
+  }
+  
