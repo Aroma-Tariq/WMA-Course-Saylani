@@ -1,0 +1,29 @@
+h1 {
+    color: blue !important ; 
+}
+
+h1 {
+    color: brown !important;
+}
+
+
+/* When same level conditions are applied, condition that comes 2nd will execute. */
+
+
+p{
+color: rgba(211, 149, 41, 0.395); 
+font-family: Arial; 
+font-weight: bolder;
+font-style: italic;
+text-align: justify;
+}
+.p1{
+    color: #00004f;
+}
+
+h1 {
+    color: #000000;
+}
+h1{
+    color: #ffffff;
+}
