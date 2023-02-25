@@ -1,0 +1,59 @@
+@font-face {
+    font-family:'Mynerve' ;
+    src: url('./Fonts/Mynerve-Regular.ttf');
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: blink;
+}
+
+h2 {
+    font-size: 2.4em;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+ .font {
+    font-family: 'Mynerve';
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 2em;
+    text-indent: 1em;
+ }
+
+ p{
+    text-decoration: blink;
+   line-height: 1em ;
+   text-shadow: 25px 25px 25px black;
+ }
+ /* p::first-letter {
+    color: blue;
+ }
+p::first-line {
+    color: pink;
+} */
+
+p:hover {
+    color: blueviolet;
+    font-size: 2em;
+}
+
+input:active {
+    background-color: pink;
+
+}
+
+input:focus{
+    color: ;
+}
+a:visited {
+    color: brown;
+}
+
+ #type{
+    word-spacing: 2em;
+    text-align: right;
+
+ }

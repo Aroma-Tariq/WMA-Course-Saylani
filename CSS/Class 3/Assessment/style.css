@@ -1,0 +1,15 @@
+
+  img {
+    max-width: 100%;
+    border: 1px solid gray;
+  }
+  
+  .caption {
+    color: #cb107ac2 !important;
+    background-color: #7b09091d;
+  }
+  
+ .highlight {
+  background-color: yellow;
+  border: red;
+ }

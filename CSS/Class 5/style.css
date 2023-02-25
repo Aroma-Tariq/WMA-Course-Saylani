@@ -1,0 +1,19 @@
+@font-face {
+    font-family:'Mynerve';
+    src: url(./Fonts/Mynerve-Regular.ttf);
+}
+
+h1{
+    font-family: 'Mynerve';
+    font-size: 50px;
+    text-decoration: overline;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: right;
+    font-style: oblique;
+}
+
+p{
+    line-height: 2em;
+}
