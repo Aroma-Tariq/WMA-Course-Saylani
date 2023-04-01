@@ -1,0 +1,57 @@
+ ul{
+    list-style: circle inside;
+}
+
+.Square {
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+ .image{
+    list-style-image: url("./featured.png");
+    list-style-position: inside;
+}
+
+table {
+    width: 600px;}
+    th, td {
+    padding: 7px 10px 10px 10px;}
+    th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;}
+    tr.even {
+    background-color: pink;}
+    tr:hover {
+    background-color:blue;}
+    .money {
+    text-align: right;}
+
+    .submit {
+        color: #444444;
+        text-shadow: 0px 1px 1px #ffffff;
+        border-bottom: 2px solid #b2b2b2;
+        background-color: #b9e4e3; 
+        margin: 10px 80px 10px 80px;
+        padding: 10px;
+    }
+        
+    
+    .submit:hover {
+        color: #333333;
+        border: 5px solid #a4a4a4;
+        border-top: 2px solid #b2b2b2;
+        background-color: #a0dbc4;
+        background: -webkit-gradient(linear, left top,
+         left bottom, from(#a8cfce), to(#beeae9));
+        background:
+         -moz-linear-gradient(top, #a8cfce, #beeae9);
+        background:
+         -o-linear-gradient(top, #a8cfce, #beeae9);
+        background:
+         -ms-linear-gradient(top, #a8cfce, #beeae9);}

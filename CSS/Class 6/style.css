@@ -1,0 +1,36 @@
+ p{
+    text-decoration: blink;
+   line-height: 1em ;
+   text-shadow: 25px 25px 25px black;
+ }
+p::first-letter {
+    color: blue;
+ }
+p::first-line {
+    color: pink;
+} 
+
+p:hover {
+    color: blueviolet;
+    font-size: 2em;
+}
+
+input:active {
+    background-color: pink;
+
+}
+button:focus{
+    color: red;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: orange;
+}
+
+ #type{
+    word-spacing: 2em;
+    text-align: right;
+
+ }

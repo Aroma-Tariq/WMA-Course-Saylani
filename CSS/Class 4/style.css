@@ -28,12 +28,12 @@ h2 {
    line-height: 1em ;
    text-shadow: 25px 25px 25px black;
  }
- /* p::first-letter {
+  p::first-letter {
     color: blue;
  }
 p::first-line {
     color: pink;
-} */
+} 
 
 p:hover {
     color: blueviolet;
@@ -46,7 +46,8 @@ input:active {
 }
 
 input:focus{
-    color: ;
+    border: dotted coral;
+    
 }
 a:visited {
     color: brown;
@@ -56,4 +57,39 @@ a:visited {
     word-spacing: 2em;
     text-align: right;
 
+ }
+
+
+ div{
+    background-color: blue;
+    color: white;
+    width: 122px;
+    /* height: 122px; */
+    /* border: 5px solid coral; */
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    /* border-top: 5px dotted white; short-hand property */
+    border-top-style: dashed;
+    border-top-color: azure;
+    border-right-style: double;
+    border-right-color: brown;
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding: 20px 30px; 
+    /* Top, Right, Bottom, Left */
+    /* Double = Top/bottm + Left/right */
+    /* Three value = 1st Top Center Left/Right 3rd Bottom */
+ }
+
+ #padding {
+    background-color: blueviolet;
+    color: white;
+    width: 182px;
+    padding: 30px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
  }
