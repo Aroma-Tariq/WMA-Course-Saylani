@@ -1,0 +1,95 @@
+@font-face {
+    font-family:'Mynerve' ;
+    src: url('./Fonts/Mynerve-Regular.ttf');
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: blink;
+}
+
+h2 {
+    font-size: 2.4em;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+ .font {
+    font-family: 'Mynerve';
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 2em;
+    text-indent: 1em;
+ }
+
+ p{
+    text-decoration: blink;
+   line-height: 1em ;
+   text-shadow: 25px 25px 25px black;
+ }
+  p::first-letter {
+    color: blue;
+ }
+p::first-line {
+    color: pink;
+} 
+
+p:hover {
+    color: blueviolet;
+    font-size: 2em;
+}
+
+input:active {
+    background-color: pink;
+
+}
+
+input:focus{
+    border: dotted coral;
+    
+}
+a:visited {
+    color: brown;
+}
+
+ #type{
+    word-spacing: 2em;
+    text-align: right;
+
+ }
+
+
+ div{
+    background-color: blue;
+    color: white;
+    width: 122px;
+    /* height: 122px; */
+    /* border: 5px solid coral; */
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    /* border-top: 5px dotted white; short-hand property */
+    border-top-style: dashed;
+    border-top-color: azure;
+    border-right-style: double;
+    border-right-color: brown;
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding: 20px 30px; 
+    /* Top, Right, Bottom, Left */
+    /* Double = Top/bottm + Left/right */
+    /* Three value = 1st Top Center Left/Right 3rd Bottom */
+ }
+
+ #padding {
+    background-color: blueviolet;
+    color: white;
+    width: 182px;
+    padding: 30px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }

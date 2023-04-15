@@ -1,0 +1,34 @@
+.position{
+    position: fixed;
+}
+
+/* .position{
+    position: relative;
+} */
+
+.one{
+    background-color: blueviolet;
+    width: 150px;
+    color: white;
+    height: 150px;
+    padding: 20px;
+}
+
+.two{
+    background-color: pink;
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    position: absolute;
+    left: 500px;
+    bottom: 100px 
+}
+
+.three {
+    background-color: palevioletred;
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}

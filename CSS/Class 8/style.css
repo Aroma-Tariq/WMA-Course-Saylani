@@ -1,0 +1,30 @@
+.container {
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 500px;
+    max-height: 400px;
+    overflow: scroll;
+  }
+  
+  .content {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+    background-color: lightgrey;
+    /* margin: 50px auto 50px auto;
+    padding: 50px; */
+  }
+  
+  .hidden {
+    overflow: hidden;
+    /* margin: 50px auto 50px auto; */
+    border: 20px dotted bl;
+    padding: 20px; 
+    /* margin: 50px auto 50px auto; */
+    
+  }
+  
